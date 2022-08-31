@@ -5,11 +5,11 @@ import { Home } from './pages/Home';
 import { CV } from './pages/CV';
 import { OmSara } from './pages/OmSara';
 import { Projekt } from './pages/Projekt';
+import { Academy } from './pages/Academy';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
         <Router>
           <Header />
           <Routes>
@@ -17,10 +17,9 @@ function App() {
             <Route path="/cv" element={<CV />}/>
             <Route path="/omsara" element={<OmSara />}/>
             <Route path="/projekt" element={<Projekt />}/>
+            <Route path="/academy" element={<Academy />}/>
           </Routes>
         </Router>
-      
-      </header>
     </div>
   );
 }

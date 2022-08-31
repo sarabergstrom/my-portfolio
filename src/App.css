@@ -33,6 +33,10 @@ body {
   cursor: pointer;
 }
 
+.square-list {
+  list-style-type: square;
+}
+
 #menu {
   padding-left: 10px;
 }

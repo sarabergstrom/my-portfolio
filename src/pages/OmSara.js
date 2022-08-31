@@ -1,3 +1,5 @@
+import { Modal } from "../components/Modal";
+
 export function OmSara() {
   return (
     <div className="backgroundbox">
@@ -15,7 +17,7 @@ export function OmSara() {
         </div>
         <div className="col-md-6">
         <h4>Intressen</h4>
-          <ul>
+          <ul className="square-list">
             <li>Personlig utveckling</li>
             <li>Hälsa och träning</li>
             <li>Matlagning och bakning</li>
@@ -39,9 +41,9 @@ export function OmSara() {
           och få möjligheten att djupdyka inom vissa områden.
           </p>
         </div>
-        <div className="col-md-6">
+        <div className="col-md-3">
           <h4>Styrkor</h4>
-          <ul>
+          <ul className="square-list">
             <li>Logisk</li>
             <li>Strukturerad</li>
             <li>Snabblärd</li>
@@ -49,6 +51,31 @@ export function OmSara() {
             <li>Pålitlig</li>
             <li>Hjälpsam</li>
           </ul>
+        </div>
+        <div className="col-md-3">
+          <h4>Färdigheter</h4>
+          <Modal id="programming" title="Programmering">
+            <ul className="square-list">
+              <li>C#</li>
+              <li>SQL</li>
+              <li>HTML & CSS</li>
+              <li>JavaScript</li>
+              <li>React</li>
+              <li>Python</li>
+              <li>MATLAB</li>
+            </ul>
+          </Modal>
+          <br></br>
+          <Modal id="languages" title="Språk">
+            <ul className="square-list">
+              <li>Svenska (modersmål)</li>
+              <li>Engelska (flytande)</li>
+              <li>Franska (B1-nivå)</li>
+              <li>Spanska (A2-nivå)</li>
+              <li>Tyska (A1-nivå)</li>
+            </ul>
+          </Modal>
+
         </div>
       </div>
       <hr></hr>

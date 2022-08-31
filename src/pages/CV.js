@@ -1,4 +1,6 @@
 import { CVItem } from '../components/CVItem';
+import { Nav} from "react-bootstrap";
+import { NavLink } from "react-router-dom";
 
 export function CV() {
   return (
@@ -33,7 +35,10 @@ export function CV() {
       <div className="col-md-6">
         <h2>Utbildning</h2>
         <CVItem title="C#.NET Fullstack Summer 22" company="AW Academy" time="2022">
-          <p>Intensivutbildning till fullstackutvecklare. Praktisk utbildning med mycket fokus på att koda själv.</p>
+          <p>
+            Intensivutbildning till fullstackutvecklare. Praktisk utbildning med mycket fokus på att koda själv.
+            <Nav.Link className='link-primary' as={NavLink} to="/academy">Läs mer här</Nav.Link>
+          </p>
         </CVItem>
         <CVItem title="Fristående kurser" company="LiU, Chalmers, SU, LTU" time="2020-2021">
           <p>Professionsspråk: Franska, Introduktion till programmering i Python, Programmeringsteknik, Webbutveckling I</p>
