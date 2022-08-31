@@ -30,7 +30,15 @@ body {
   cursor: pointer;
 }
 
+.cv-item a {
+  cursor: pointer;
+}
+
 .project-item-header {
+  cursor: pointer;
+}
+
+.project-item a {
   cursor: pointer;
 }
 

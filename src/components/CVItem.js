@@ -15,6 +15,7 @@ export function CVItem(props) {
           <p>{props.company}</p>
         </span>
       </div>
+      <a className='link-dark' onClick={handleShow}>{show ? "Visa mindre" : "Visa mer"}</a>
       <div className='cv-item-children'>{show ? props.children : ""}</div>
     </div>
   );

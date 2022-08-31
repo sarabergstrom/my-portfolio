@@ -12,6 +12,7 @@ export function ProjectItem(props) {
         <h4>{props.title}</h4>
         <p><strong>{props.description}</strong></p>
       </div>
+      <a className='link-dark' onClick={handleShow}>{show ? "Visa mindre" : "Visa mer"}</a>
       <div className='project-item-children'>{show ? props.children : ""}</div>
     </div>
   );
