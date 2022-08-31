@@ -27,24 +27,3 @@ export function Header() {
     </Navbar>
   );
 }
-
-
-{/* <nav className="navbar navbar-light bg-light navbar-expand-lg fixed-top">
-<a className="navbar-brand">Sara Bergström</a>
-<button className='navbar-toggler' data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-<span className='navbar-toggler-icon'></span>
-</button>
-<div className="collapse navbar-collapse" id='navbarCollapse'>
-<ul className="navbar-nav ml-auto">
-  <li className='navbar-item'>
-    <a href='#cv' className='nav-link'>CV</a>
-  </li>
-  <li className='navbar-item'>
-    <a href='#' className='nav-link'>Om Sara</a>
-  </li>
-  <li className='navbar-item'>
-    <a href='#' className='nav-link'>Tidigare projekt</a>
-  </li>
-</ul>
-</div>
-</nav> */}
