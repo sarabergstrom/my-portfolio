@@ -11,7 +11,7 @@ export function Home() {
                 <p>
                     Nyfiken, kunskapstörstande nörd som precis utbildat sig till fullstackutvecklare med fokus på C#.NET.
                 </p>
-                <a href="https://www.linkedin.com/in/sara-bergström" target="_blank">LinkedIn</a>
+                <a href="https://www.linkedin.com/in/sara-bergström" target="_blank" rel="noreferrer">LinkedIn</a>
             </div>
             <div className="col-md-6">
                 <h4>Junior Fullstackutvecklare C#.NET</h4>

@@ -9,7 +9,7 @@ export function Projekt() {
           <p>
             Portfolio med CV, info om mig och exempel på projekt, som ett komplement till en statisk pdf.<br />
           </p>
-          <p><a className='link-primary' href='https://github.com/sarabergstrom/my-portfolio' target="_blank">Finns på GitHub</a></p>
+          <p><a className='link-primary' href='https://github.com/sarabergstrom/my-portfolio' target="_blank" rel="noreferrer">Finns på GitHub</a></p>
           <p><strong>Tekniker: </strong></p>
           <ul className='square-list'>
             <li>React</li>
@@ -25,7 +25,7 @@ export function Projekt() {
             Möjlighet att betygsätta och göra anteckningar på varje bok, samt skapa egna kategorier för böcker, exempelvis rekommendationer från någon.
             Enkel och avancerad sökning, där informationen hämtas från Google books API.<br />
           </p>
-          <p>Grupparbete i grupp om fyra personer. <a className='link-primary' href='https://github.com/Samiir113/TheBookAppPro' target="_blank">Finns på GitHub.</a></p>
+          <p>Grupparbete i grupp om fyra personer. <a className='link-primary' href='https://github.com/Samiir113/TheBookAppPro' target="_blank" rel="noreferrer">Finns på GitHub.</a></p>
           <p><strong>Tekniker: </strong></p>
           <ul className='square-list'>
             <li>C#.NET</li>
