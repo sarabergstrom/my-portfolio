@@ -5,7 +5,7 @@ export function Home() {
     return (
       <div className="backgroundbox">
         <h2>Välkommen!</h2>
-        <div className="row backgroundbox">
+        <div className="row vw-90 backgroundbox">
             <div className="col-md-6">
                 <h4>Sara Bergström</h4>
                 <p>

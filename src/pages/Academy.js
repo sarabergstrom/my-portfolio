@@ -33,7 +33,6 @@ export function Academy() {
                     </ul>
                 </div>
             </div>
-            <hr></hr>
         </div>
     )
 }

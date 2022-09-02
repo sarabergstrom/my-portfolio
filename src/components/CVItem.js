@@ -7,13 +7,11 @@ export function CVItem(props) {
     setShow(prevState => !prevState);
   }
   return (
-    <div className="cv-item backgroundbox">
+    <div className="cv-item backgroundbox flex-grow-1">
       <div className="cv-item-header" onClick={handleShow}>
-        <span>
           <p>{props.time}</p>
           <h4>{props.title}</h4>
           <p>{props.company}</p>
-        </span>
       </div>
       <button className='btn btn-link link-dark no-margin' onClick={handleShow}>{show ? "Visa mindre" : "Visa mer"}</button>
       <div className='cv-item-children'>{show ? props.children : ""}</div>
